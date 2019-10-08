@@ -703,11 +703,6 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-			.image.main.stack {
-				background-color: transparent;	
-				margin-right: auto;
-				margin-left: auto;
-			}
 
 			.image.main.stack img {
 				width: 60px;
@@ -715,6 +710,25 @@ input, select, textarea {
 				margin-left: 20px;				
 			}
 
+			.stack {
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 30px;
+			}
+			.stack img {
+				width: 60px;
+				display: inline;
+				margin-left: 20px;	
+			}
+
+			.stack img:first-child{
+				margin-left: 0;	
+			}
+
+			#stack h4{
+				margin:0px;
+			}
 		@media screen and (max-width: 736px) {
 
 			.image.main {
