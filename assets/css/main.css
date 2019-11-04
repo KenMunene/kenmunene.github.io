@@ -704,6 +704,31 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.main.stack img {
+				width: 60px;
+				display: inline;
+				margin-left: 20px;				
+			}
+
+			.stack {
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 30px;
+			}
+			.stack img {
+				width: 60px;
+				display: inline;
+				margin-left: 20px;	
+			}
+
+			.stack img:first-child{
+				margin-left: 0;	
+			}
+
+			#stack h4{
+				margin:0px;
+			}
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1139,10 +1164,14 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
+			background-image: linear-gradient(to top, rgba(119,175,255,0.4), rgba(119,175,255,0.4)), url("../../images/overlay.png");
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1544,6 +1573,7 @@ input, select, textarea {
 			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
+			/* background-color: rgba(255, 207, 119, 1.45); */
 			border-radius: 4px;
 			opacity: 0;
 		}
